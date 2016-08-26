@@ -12,4 +12,4 @@ angular.module("CustomDirective",[])
 	.error(funcion(err){
 		console.log(err);
 	});
-}9;
+};
