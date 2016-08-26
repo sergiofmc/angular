@@ -1,7 +1,3 @@
-/**
- * 
- */
-
 angular.module("CustomDirective",[])
 
 .controller("AppCtrl", function($scope,$http){
@@ -9,7 +5,7 @@ angular.module("CustomDirective",[])
 	.success(function(data){
 		$scope.repos = data;
 	})
-	.error(funcion(err){
+	.error(function(err){
 		console.log(err);
 	});
-};
+});
